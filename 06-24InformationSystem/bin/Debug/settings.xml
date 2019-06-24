@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+    <ConStringSetting name="MySqlConnectionString">
+		Server=10.45.241.52;Database=0624system;Uid=0624Client;Pwd=!Mc_j8!Px;Charset=utf8;
+	</ConStringSetting>
+	<IcxServerIP name="IcxServerIP">
+		10.45.241.205
+	</IcxServerIP>
+	<IcxServerPort name="IcxServerPort">
+		17000
+	</IcxServerPort>
+	<ManualPath name="ManualPath">
+		C:\Swarco\Manualer\
+	</ManualPath>
+</settings>

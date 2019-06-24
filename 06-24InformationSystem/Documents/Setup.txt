@@ -1,0 +1,5 @@
+﻿////////////////////////////// 06-24 Information System //////////////////////////////
+
+Setup:
+Check the settings.xml file and place the correct connection string to DB in it.
+settings.xml also contains the IP and Port address to the UVP server.

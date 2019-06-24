@@ -1,0 +1,180 @@
+[INFO] - 2019-06-24 10:30:17,086 – Started 06-24 Information System
+[DEBUG] - 2019-06-24 10:30:17,773 – Starting WorkerThread!
+[INFO] - 2019-06-24 10:30:17,783 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-24 10:30:17,923 – 10:30 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-24 10:30:19,247 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-24 10:30:19,380 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2037
+[ERROR] - 2019-06-24 10:30:19,441 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-24 10:30:26,359 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-24 10:30:27,193 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1177
+[ERROR] - 2019-06-24 10:30:27,482 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73
+[INFO] - 2019-06-24 10:35:33,071 – Started 06-24 Information System
+[DEBUG] - 2019-06-24 10:35:33,763 – Starting WorkerThread!
+[INFO] - 2019-06-24 10:35:33,778 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-24 10:35:33,808 – 10:35 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-24 10:35:34,341 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-24 10:35:34,385 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2037
+[ERROR] - 2019-06-24 10:35:34,420 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-24 10:35:52,939 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-24 10:35:53,265 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1177
+[ERROR] - 2019-06-24 10:35:53,480 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73
+[INFO] - 2019-06-24 10:58:21,480 – Started 06-24 Information System
+[DEBUG] - 2019-06-24 10:58:21,817 – Starting WorkerThread!
+[INFO] - 2019-06-24 10:58:21,838 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-24 10:58:21,883 – 10:58 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-24 10:58:22,642 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-24 10:58:22,699 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2037
+[ERROR] - 2019-06-24 10:58:22,742 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-24 10:58:24,315 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-24 10:58:24,801 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1177
+[ERROR] - 2019-06-24 10:58:25,076 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73

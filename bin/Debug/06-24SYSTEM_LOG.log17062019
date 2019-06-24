@@ -1,0 +1,1153 @@
+[ERROR] - 2019-06-17 09:52:17,668 – Exception thrown from method checkIfPasswordExists
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.UserHandler.userController.checkIfPasswordExists(String user) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\UserHandler\userController.cs:rad 19
+[ERROR] - 2019-06-17 09:52:17,768 – Exception thrown from method checkIfUserExists
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.UserHandler.userController.checkIfUserExists(String user) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\UserHandler\userController.cs:rad 52
+[INFO] - 2019-06-17 09:53:16,292 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:53:16,335 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:53:16,337 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:53:16,359 – 09:53 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 46
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 165
+[ERROR] - 2019-06-17 09:53:16,596 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:53:16,636 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2018
+[ERROR] - 2019-06-17 09:53:16,723 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:53:16,825 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:53:16,905 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:53:16,997 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:53:17,083 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:53:17,211 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:53:17,406 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[INFO] - 2019-06-17 09:53:43,949 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:53:43,960 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:53:43,962 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:53:43,967 – 09:53 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 46
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 165
+[ERROR] - 2019-06-17 09:53:44,073 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:53:44,084 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2018
+[ERROR] - 2019-06-17 09:53:44,087 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:53:44,093 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:53:44,096 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:53:44,099 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:53:44,103 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:53:44,125 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:53:44,191 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[INFO] - 2019-06-17 09:54:01,632 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:54:01,652 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:54:01,657 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:54:01,678 – 09:54 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 46
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 165
+[ERROR] - 2019-06-17 09:54:01,911 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:54:01,971 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2018
+[ERROR] - 2019-06-17 09:54:02,063 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:54:02,166 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:54:02,257 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:54:02,345 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:54:02,432 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:54:02,566 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:54:02,724 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[INFO] - 2019-06-17 09:54:32,867 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:54:32,899 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:54:32,902 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:54:32,933 – 09:54 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 45
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 163
+[ERROR] - 2019-06-17 09:54:33,340 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:54:33,404 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2023
+[ERROR] - 2019-06-17 09:54:33,557 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:54:33,690 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:54:33,820 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:54:33,942 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:54:34,061 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:54:34,231 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:54:34,452 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[ERROR] - 2019-06-17 09:54:34,615 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'SELT-FPJ5RQ2.se.swsc.prv' is not allowed to connect to this MySQL server
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:rad 67
+[INFO] - 2019-06-17 09:55:00,073 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:55:00,093 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:55:00,096 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:55:00,129 – 09:55 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 45
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 163
+[ERROR] - 2019-06-17 09:55:00,835 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:55:00,884 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2023
+[ERROR] - 2019-06-17 09:55:01,120 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:55:01,364 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:55:01,592 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:55:01,821 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:55:02,052 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:55:02,321 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:55:02,656 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[ERROR] - 2019-06-17 09:55:02,930 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:rad 67
+[INFO] - 2019-06-17 09:56:08,627 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:56:08,660 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:56:08,665 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:56:08,689 – 09:56 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 45
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 163
+[ERROR] - 2019-06-17 09:56:09,161 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 221
+[ERROR] - 2019-06-17 09:56:09,199 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2023
+[ERROR] - 2019-06-17 09:56:09,363 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 111
+[ERROR] - 2019-06-17 09:56:09,547 – Exception thrown from method getCustomers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustomers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 42
+[ERROR] - 2019-06-17 09:56:09,730 – Exception thrown from method getBugReports
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getBugReports() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 898
+[ERROR] - 2019-06-17 09:56:09,909 – Exception thrown from method getActions
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getActions() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 936
+[ERROR] - 2019-06-17 09:56:10,081 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 77
+[ERROR] - 2019-06-17 09:56:10,277 – Exception thrown from method getEquipment
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getEquipment(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 662
+[ERROR] - 2019-06-17 09:56:10,525 – Exception thrown from method getManual
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQLHandler.getManual() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1082
+[ERROR] - 2019-06-17 09:56:10,736 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user '0624Client' using method 'mysql_native_password' failed with message: Access denied for user '0624Client'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user '0624Client'@'localhost' (using password: YES)
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   vid MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   vid MySql.Data.MySqlClient.NativeDriver.Open()
+   vid MySql.Data.MySqlClient.Driver.Open()
+   vid MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   vid MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   vid MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   vid MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   vid MySql.Data.MySqlClient.MySqlConnection.Open()
+   vid _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:rad 67
+[INFO] - 2019-06-17 09:57:26,785 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 09:57:26,807 – Starting WorkerThread!
+[INFO] - 2019-06-17 09:57:26,813 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 09:57:26,836 – 09:57 : exception System.IO.FileNotFoundException: online.png
+   vid System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   vid System.Drawing.Image.FromFile(String filename)
+   vid _06_24InformationSystem.MainView.StartIdleTimer() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 45
+   vid _06_24InformationSystem.MainView.WorkerThread() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 163
+[ERROR] - 2019-06-17 09:57:27,284 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   vid MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   vid _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:rad 227
+[ERROR] - 2019-06-17 09:57:27,322 – Error in ListManuals() System.IO.DirectoryNotFoundException: Det gick inte att hitta en del av sökvägen C:\Swarco\Manualer.
+   vid System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   vid System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   vid System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   vid System.IO.Directory.GetFiles(String path)
+   vid _06_24InformationSystem.MainView.ListManuals() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:rad 2023
+[ERROR] - 2019-06-17 09:57:27,404 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   vid MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   vid _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:rad 114
+[ERROR] - 2019-06-17 09:57:27,547 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   vid MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   vid _06_24InformationSystem.Model.MySQLHandler.getUsers() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 80
+[ERROR] - 2019-06-17 09:57:27,977 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   vid MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   vid MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   vid MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   vid MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   vid MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   vid _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:rad 73
+[ERROR] - 2019-06-17 09:57:29,751 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data är Null. Det går inte att anropa den här metoden eller egenskapen med Null-värden.
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1178
+[ERROR] - 2019-06-17 09:57:29,808 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data är Null. Det går inte att anropa den här metoden eller egenskapen med Null-värden.
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1178
+[ERROR] - 2019-06-17 09:57:41,799 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data är Null. Det går inte att anropa den här metoden eller egenskapen med Null-värden.
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1178
+[ERROR] - 2019-06-17 09:57:41,839 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data är Null. Det går inte att anropa den här metoden eller egenskapen med Null-värden.
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   vid MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   vid _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) i C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:rad 1178
+[INFO] - 2019-06-17 10:00:45,971 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 10:00:46,030 – Starting WorkerThread!
+[INFO] - 2019-06-17 10:00:46,067 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 10:00:46,209 – 10:00 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-17 10:00:47,401 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-17 10:00:47,547 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2023
+[ERROR] - 2019-06-17 10:00:47,587 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-17 10:00:58,156 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-17 10:00:59,090 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:00:59,402 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73
+[ERROR] - 2019-06-17 10:01:15,300 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:01:15,345 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[INFO] - 2019-06-17 10:02:21,846 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 10:02:21,905 – Starting WorkerThread!
+[INFO] - 2019-06-17 10:02:21,924 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 10:02:21,973 – 10:02 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-17 10:02:22,806 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-17 10:02:22,906 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2023
+[ERROR] - 2019-06-17 10:02:22,941 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-17 10:02:25,889 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-17 10:02:26,190 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:02:26,406 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73
+[ERROR] - 2019-06-17 10:03:06,632 – Exception thrown from method getCustPriceInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustPriceInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1120
+[ERROR] - 2019-06-17 10:03:06,669 – Exception thrown from method getCustContactInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustContactInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1247
+[ERROR] - 2019-06-17 10:03:06,703 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:03:06,755 – Error in AddCustPriceComboBox_SelectedIndexChanged() System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at _06_24InformationSystem.Model.MySQLHandler.PriceOldInformation(String customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 121
+   at _06_24InformationSystem.MainView.AddCustPriceComboBox_SelectedIndexChanged(Object sender, EventArgs e) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 1213
+[ERROR] - 2019-06-17 10:03:06,799 – Error in AddCustomerContactInformationComboBox_SelectedIndexChanged() System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at _06_24InformationSystem.MainView.AddCustomerContactInformationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 1198
+[ERROR] - 2019-06-17 10:03:06,827 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:04:02,860 – Exception thrown from method getCustPriceInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustPriceInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1120
+[ERROR] - 2019-06-17 10:04:02,887 – Exception thrown from method getCustContactInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustContactInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1247
+[ERROR] - 2019-06-17 10:04:02,913 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:04:02,952 – Error in AddCustPriceComboBox_SelectedIndexChanged() System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at _06_24InformationSystem.Model.MySQLHandler.PriceOldInformation(String customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 121
+   at _06_24InformationSystem.MainView.AddCustPriceComboBox_SelectedIndexChanged(Object sender, EventArgs e) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 1213
+[ERROR] - 2019-06-17 10:04:02,993 – Error in AddCustomerContactInformationComboBox_SelectedIndexChanged() System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at _06_24InformationSystem.MainView.AddCustomerContactInformationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 1198
+[ERROR] - 2019-06-17 10:04:03,019 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\DEV\VisualStudio\UVPsupportTool\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[INFO] - 2019-06-17 10:05:58,738 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 10:05:58,773 – Starting WorkerThread!
+[INFO] - 2019-06-17 10:05:58,809 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 10:05:58,870 – 10:05 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-17 10:05:59,882 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-17 10:06:00,040 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2030
+[ERROR] - 2019-06-17 10:06:00,084 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-17 10:06:02,678 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-17 10:06:03,262 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:06:03,614 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73
+[INFO] - 2019-06-17 10:08:04,698 – Started 06-24 Information System
+[DEBUG] - 2019-06-17 10:08:04,759 – Starting WorkerThread!
+[INFO] - 2019-06-17 10:08:04,781 – Started Ping auto-reconnecting timer
+[DEBUG] - 2019-06-17 10:08:04,934 – 10:08 : exception System.IO.FileNotFoundException: online.png
+   at System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   at System.Drawing.Image.FromFile(String filename)
+   at _06_24InformationSystem.MainView.StartIdleTimer() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 45
+   at _06_24InformationSystem.MainView.WorkerThread() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 163
+[ERROR] - 2019-06-17 10:08:06,170 – Exception thrown from method getSummation
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.summation' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.Summation.EventsMySQLHandler.getSummation(DateTime selectedDay) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\Summation\EventsMySQLHandler.cs:line 227
+[ERROR] - 2019-06-17 10:08:06,313 – Error in ListManuals() System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Swarco\Manualer'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path)
+   at _06_24InformationSystem.MainView.ListManuals() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\View\MainView.cs:line 2037
+[ERROR] - 2019-06-17 10:08:06,363 – Exception thrown from method getQuestionTitle
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.qa' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.QA.QAMySQLHandler.getQuestionTitle() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\QA\QAMySQLHandler.cs:line 114
+[ERROR] - 2019-06-17 10:08:08,723 – Exception thrown from method getUsers
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.users' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQLHandler.getUsers() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 80
+[ERROR] - 2019-06-17 10:08:09,212 – Exception thrown from method getCustSwapInfo
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at MySql.Data.MySqlClient.MySqlDataReader.GetFieldValue(Int32 index, Boolean checkNull)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(Int32 i)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetString(String column)
+   at _06_24InformationSystem.Model.MySQLHandler.getCustSwapInfo(String Customer) in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQLHandler.cs:line 1178
+[ERROR] - 2019-06-17 10:08:09,596 – Exception thrown from method getNews
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table '0624system.news' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at _06_24InformationSystem.Model.MySQL.News.NewsMySQLHandler.getNews() in C:\Users\lethu\Desktop\06-24InformationSystem\06-24InformationSystem\Model\MySQL\News\NewsMySQLHandler.cs:line 73

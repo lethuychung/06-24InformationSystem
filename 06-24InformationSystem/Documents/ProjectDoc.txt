@@ -1,0 +1,8 @@
+﻿////////////////////////////// 06-24 Information System //////////////////////////////
+
+
+---------- Initial commit ----------
+Design is done, for now atleast
+Added error logging
+Added XML reading
+Added maps for the user, theese are saved in base64 format on DB

@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34C66920-DFD3-45E1-8AD0-F4FC4AFD31A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_06_24InformationSystem</RootNamespace>
+    <AssemblyName>06-24InformationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Equin.ApplicationFramework.BindingListView, Version=1.4.5222.35545, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Equin.ApplicationFramework.BindingListView.1.4.5222.35545\lib\net40-Client\Equin.ApplicationFramework.BindingListView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.8\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.0.9.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.NET.2.0.9.3\lib\net45\MySqlBackup.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\MySQLWorker.cs" />
+    <Compile Include="Model\MySQL\Export\ExportMySQL.cs" />
+    <Compile Include="View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MapForm.Designer.cs">
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ICXComponent\ICX-Client.cs" />
+    <Compile Include="Model\ImageBase64Logic.cs" />
+    <Compile Include="Model\Info.cs" />
+    <Compile Include="Model\MySQLHandler.cs" />
+    <Compile Include="Model\MySQL\Actions\ActionMySQLHandler.cs" />
+    <Compile Include="Model\MySQL\Logbook\LOGMySQLHandler.cs" />
+    <Compile Include="Model\MySQL\LogMaster.cs" />
+    <Compile Include="Model\MySQL\News\NewsMySQLHandler.cs" />
+    <Compile Include="Model\MySQL\QA\QAMySQLHandler.cs" />
+    <Compile Include="Model\MySQL\Summation\EventsMySQLHandler.cs" />
+    <Compile Include="Model\MySQL\UserHandler\userController.cs" />
+    <Compile Include="Model\PasswordEncryption.cs" />
+    <Compile Include="Model\XMLReader.cs" />
+    <Compile Include="View\NewsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NewsForm.Designer.cs">
+      <DependentUpon>NewsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PreviewHTML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PreviewHTML.Designer.cs">
+      <DependentUpon>PreviewHTML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ChoosePassPormpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ChoosePassPormpt.Designer.cs">
+      <DependentUpon>ChoosePassPormpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Easter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Easter.Designer.cs">
+      <DependentUpon>Easter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LogoutPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LogoutPrompt.Designer.cs">
+      <DependentUpon>LogoutPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\viewCommentEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\viewCommentEntry.Designer.cs">
+      <DependentUpon>viewCommentEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewLogbookEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewLogbookEntry.Designer.cs">
+      <DependentUpon>ViewLogbookEntry.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MapForm.resx">
+      <DependentUpon>MapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NewsForm.resx">
+      <DependentUpon>NewsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PreviewHTML.resx">
+      <DependentUpon>PreviewHTML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\ChoosePassPormpt.resx">
+      <DependentUpon>ChoosePassPormpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Easter.resx">
+      <DependentUpon>Easter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LogoutPrompt.resx">
+      <DependentUpon>LogoutPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\viewCommentEntry.resx">
+      <DependentUpon>viewCommentEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewLogbookEntry.resx">
+      <DependentUpon>ViewLogbookEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Backup_MySQL\0624MySQLDB.sql" />
+    <Content Include="Documents\ProjectDoc.txt" />
+    <Content Include="Documents\Setup.txt" />
+    <Content Include="LOGO.ico" />
+    <Content Include="Pics\LOGO.ico" />
+    <Content Include="Pics\offline.png" />
+    <Content Include="Pics\online.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
